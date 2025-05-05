@@ -1,0 +1,14 @@
+#!/bin/bash
+apt-get update -y
+apt-get upgrade -y
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+cd/home/ubuntu
+git clone https://github.com/itzzsoumik004/newassignment9.git
+cd newassignment9
+npm install
+node index.js
