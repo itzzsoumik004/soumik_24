@@ -1,3 +1,13 @@
+ass-7
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt install nginx
+cd ..
+cd ..
+cd var
+cd www
+sudo chmod 777 html
+
 Asg-8
 git init
 git remote add origin https://github.com/itzzsoumik004/newassignment9.git
